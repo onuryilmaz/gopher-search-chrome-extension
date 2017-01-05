@@ -3,7 +3,7 @@
    "name":"Gopher Search Extension",
    "short_name": "Gopher Search",
    "description": "Gopher Search Extension converts all your 'go' searches to 'golang'",
-   "version":"1.0.2",
+   "version":"1.0.3",
    "icons": { "128": "gopher.png" },
    "content_scripts":[
       {

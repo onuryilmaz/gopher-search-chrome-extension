@@ -6,15 +6,12 @@ const becomeGopher = function() {
             const reg = new RegExp("\\b" + "go" + "\\b");
             searchbox.forEach(function(sb) {
                 if (reg.test(sb.value) && !sb.value.includes("golang")) {
-                    console.log("found!")
                     sb.value = sb.value.replace(reg, "golang");
                     document.getElementsByClassName('tsf').tsf.submit();
                 }
             });
-
         }
     });
-
 }
 
 $('input[name=q]').change(function() {becomeGopher(); });

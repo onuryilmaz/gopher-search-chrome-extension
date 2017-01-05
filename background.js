@@ -7,7 +7,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
                 "active": "false"
             }, function() {
                 chrome.browserAction.setIcon({
-                    path: "go-fade.png"
+                    path: "gopher-fade.png"
                 });
 
             });
